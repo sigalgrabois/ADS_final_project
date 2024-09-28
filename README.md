@@ -1,5 +1,5 @@
 
-# Fake News Detection Project
+# Fake News Detection Project - ADS final project
 
 ### By Vered Klein, Dana Markiewitz, and Sigal Grabois
 
@@ -27,7 +27,7 @@
 
 ## 📰 Overview
 
-In today’s digital world, **fake news** is a pressing issue that can have far-reaching consequences. This project aims to tackle the problem by building machine learning models that predict the **truthfulness** of statements. Using the **[LIAR dataset](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip)**, we explore how features like speaker credibility, statement length, and **Doc2Vec embeddings** contribute to detecting misinformation.
+In today’s digital world, **fake news** is a pressing issue that can have far-reaching consequences. This project aims to tackle the problem by building and improving a machine learning model that predicts the **truthfulness** of statements. Using the **[LIAR dataset](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip)**, we explore how features like speaker credibility, statement length, and **Doc2Vec embeddings** contribute to detecting misinformation.
 
 ---
 
@@ -161,13 +161,11 @@ pyLDAvis.display(lda_display)
 
 ## 🏆 Results
 
-- **Accuracy**: Our best accuracy on the test set was approximately **X%**.
+- **Accuracy**: Our best accuracy on the test set was approximately **85%**.
 - **Important Features**:
-  - **Credibility Score**
+  - **TF-IDF**
+  -  **Credibility Score**
   - **Statement Length**
-  - **Subject Embedding (Doc2Vec)**
-  
-- **Topic Modeling**: The LDA model uncovered topics that were strongly associated with truthful and false statements.
 
 ---
 
