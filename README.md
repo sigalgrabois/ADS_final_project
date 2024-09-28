@@ -67,12 +67,10 @@ Each statement includes metadata such as:
    - **Character Count**: The number of characters (excluding spaces) in the statement.
    - **Average Word Length**: Calculated for each statement.
    
-   <img src="https://via.placeholder.com/400x200?text=Statement+Length+Analysis" alt="Statement Length Plot" />
 
 ### 2. **Doc2Vec Embeddings**
    - We use **Doc2Vec embeddings** to convert textual features like `subject`, `job_title`, and `context` into numerical vectors. This allows the model to capture semantic relationships.
-   
-   <img src="https://via.placeholder.com/400x200?text=Doc2Vec+Embeddings" alt="Doc2Vec Embedding Plot" />
+  
 
 ### 3. **Credibility Score**
    - A speaker's credibility score is calculated by applying weighted penalties for false statements and rewarding truthful statements. This score reflects the speaker's overall reliability across their statements.
@@ -84,13 +82,11 @@ Each statement includes metadata such as:
 
 ### 4. **TF-IDF**
    - **TF-IDF** (Term Frequency-Inverse Document Frequency) is used to assess the importance of words within a statement, helping the model weigh frequent and rare words appropriately.
-   
-   <img src="https://via.placeholder.com/400x200?text=TF-IDF+Visual" alt="TF-IDF Plot" />
+  
 
 ### 5. **Topic Modeling (LDA)**
    - We apply **Latent Dirichlet Allocation (LDA)** to group statements into topics and explore whether certain topics are associated more with truth or falsehood.
-   
-   <img src="https://via.placeholder.com/400x200?text=Topic+Modeling" alt="Topic Modeling Visualization" />
+  
 
 ---
 
@@ -113,7 +109,6 @@ Each statement includes metadata such as:
 ### 2. **Performance and Error Analysis**
    - **Confusion Matrix**: We perform error analysis by visualizing the confusion matrix and tracking which labels are most commonly misclassified.
    
-   <img src="https://via.placeholder.com/400x200?text=Confusion+Matrix" alt="Confusion Matrix Plot" />
 
 ---
 
