@@ -67,7 +67,7 @@ Each statement includes metadata such as:
    - **Character Count**: The number of characters (excluding spaces) in the statement.
    - **Average Word Length**: Calculated for each statement.
    
-   <img src="[https://via.placeholder.com/400x200?text=Statement+Length+Analysis](https://github.com/sigalgrabois/ADS_final_project/blob/main/length.png)" alt="Statement Length Plot" />
+   <img src="https://via.placeholder.com/400x200?text=Statement+Length+Analysis" alt="Statement Length Plot" />
 
 ### 2. **Doc2Vec Embeddings**
    - We use **Doc2Vec embeddings** to convert textual features like `subject`, `job_title`, and `context` into numerical vectors. This allows the model to capture semantic relationships.
