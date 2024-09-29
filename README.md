@@ -1,7 +1,7 @@
 
 # Fake News Detection Project - ADS final project
 
-### By Vered Klein, Dana Markiewitz, and Sigal Grabois
+## By Vered Klein, Dana Markiewitz, and Sigal Grabois
 
 ---
 
