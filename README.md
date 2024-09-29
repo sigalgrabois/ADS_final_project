@@ -5,9 +5,13 @@
 
 ---
 
+## 📰 Overview
+
+In today’s digital world, **fake news** is a pressing issue that can have far-reaching consequences. This project aims to tackle the problem by building and improving a machine learning model that predicts the **truthfulness** of statements. Using the **[LIAR dataset](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip)**, we explore how features like speaker credibility, statement length, and **Doc2Vec embeddings** contribute to detecting misinformation.
+---
+
 ## 🗂️ Table of Contents
 
-- [Overview](#-overview)
 - [Dataset](#-dataset)
 - [Goals](#-goals)
 - [Features and Engineering](#-features-and-engineering)
@@ -22,12 +26,6 @@
 - [Usage](#-usage)
 - [Results](#-results)
 - [Conclusion](#-conclusion)
-
----
-
-## 📰 Overview
-
-In today’s digital world, **fake news** is a pressing issue that can have far-reaching consequences. This project aims to tackle the problem by building and improving a machine learning model that predicts the **truthfulness** of statements. Using the **[LIAR dataset](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip)**, we explore how features like speaker credibility, statement length, and **Doc2Vec embeddings** contribute to detecting misinformation.
 
 ---
 
